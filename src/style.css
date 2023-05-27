@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+
+
+.container-1{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 10px;
+  
+}
+
+.heading{
+  text-align: center;
+}
+h1 {
+  font-weight: bold;
+  margin: 0;
+  color: rgb(8, 110, 76);
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 20px 0 30px;
+}
+
+button {
+  border-radius: 20px;
+border: none;
+  background-color: #0c0925;
+  color: #FFFFFF;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 12px 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+    border: 1px solid #FFFFFF;   
+
+  transition: 0.5s;
+}
+
+button.ghost:hover {
+  background-color: #FFFFFF;
+  color: #0E1119;
+  cursor: pointer;
+}
+
+.add-contacts{
+  margin-top: 100px;
+
+}
+form {
+  background-color: #FFFFFF;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.contacts{
+  display: flex;
+  justify-content: left;
+    flex-direction: row;
+  margin-left: 10px;
+  padding-left: 20px;
+  
+}
+.contacts p{
+  margin-left: 20px;
+}
+#contacts-heading{
+  margin-top: 100px;
+}
+
+img{
+  height: 150px;
+  width: 130px;
+  margin: 10px;
+  border-radius: 100%;
+}
+.container-2{
+  display: flex;
+  justify-content: left;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.modal button{
+  font-size: 10px;
+
+}
